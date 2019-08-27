@@ -1,0 +1,42 @@
+html{
+    font-size: 62.5% /** Forzar 1 rem =62.5% de 16px=10 px **/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa
+}
+
+#header-principal{ /* #Para ID y el .Clases*/
+    background-color: white;
+    height: 15rem;
+    width: 100%;
+    border:1px solid red;
+    padding-top: 2rem;
+    display: flex;
+}
+
+    #header-princial div{
+        width: 50%;
+        border:1px solid blue;    
+    }
+#Section-image{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-items: baseline;
+    text-align: justify;
+}
+
+.div1{
+    border: 1px;
+}
