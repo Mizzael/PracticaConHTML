@@ -17,7 +17,7 @@ body{
     display: flex;
 }
 
-    #header-princial div{
+    #header-principal div{
         width: 50%;
         display: flex;  
     }
@@ -48,21 +48,3 @@ body{
         letter-spacing: .2rem;
         text-align: center;
     }
-
-
-
-.titulo{
-    display: flex;
-    justify-content: center;
-}
-
-p{
-    display: flex;
-    align-items: baseline;
-    text-align: justify;
-}
-
-.div1{
-    border: 1px;
-}
-
