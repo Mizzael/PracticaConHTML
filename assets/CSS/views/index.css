@@ -21,10 +21,14 @@ body{
         width: 50%;
         border:1px solid blue;    
     }
+
+
 #Section-image{
     display: flex;
     justify-content: center;
 }
+
+
 
 .titulo{
     display: flex;
