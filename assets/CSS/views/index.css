@@ -19,14 +19,24 @@ body{
 
     #header-princial div{
         width: 50%;
-        border:1px solid blue;    
+        display: flex;  
     }
 
+    #header-principal .logo img{
+        margin-left: 4rem;
+    }
 
-#Section-image{
+    #header-principal .logo h1{
+        color: #666;
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    #Section-image{
     display: flex;
     justify-content: center;
-}
+    }
 
 
 
