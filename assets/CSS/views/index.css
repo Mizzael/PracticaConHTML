@@ -12,7 +12,7 @@ body{
     background-color: white;
     height: 15rem;
     width: 100%;
-    border:1px solid red;
+    /* border:1px solid red; */
     padding-top: 2rem;
     display: flex;
 }
@@ -56,5 +56,10 @@ main{
 }
 .imagen-banner{
     background-image: url(../../images/casa1.jpg);    /* Ruta relativa para ver la imagen, saliendo de carpetas */
-    
+    height: 45rem;
+    /* border: ; */
+    opacity: .85;
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
 }
