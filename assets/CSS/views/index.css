@@ -99,6 +99,10 @@ main{
             text-align: center;
         }
 
+        /* .Sugerencias h3{
+            text-align: center;
+        } */
+
         .Sugerencias p{
             width: 60%;
             margin: 0 auto;
@@ -107,15 +111,31 @@ main{
             line-height: 1.5;
         }
 
-        .Sugerencias ul{
+        /* .Sugerencias ul{
             font-size: 1.8rem;
             text-align: center;
             margin: 0 auto;
+            line-height: 1.5;
         }
+
+        .Sugerencias a{
+            width: 60%;
+            margin: 0 auto;
+            font-size: 1.8rem;
+            text-align: center;
+            line-height: 1.5;
+        } */
 
         .Sugerencias .Contenedor-sugerencias{
             display: flex;
             padding-top: 5rem;
             width: 90%;
             margin: 0 auto;
+            justify-content: space-between;             /* Agrega un espacio entre los dos contenedores  */
+
+        }
+
+        .Contenedor-sugerencias div{
+            width: 32%;
+            background-color: white;
         }
