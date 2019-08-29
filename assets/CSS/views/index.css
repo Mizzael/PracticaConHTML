@@ -54,12 +54,16 @@ body{
 main{
     width: 100%;
 }
-.imagen-banner{
-    background-image: url(../../images/casa1.jpg);    /* Ruta relativa para ver la imagen, saliendo de carpetas */
-    height: 45rem;
-    /* border: ; */
-    opacity: .85;
-    background-size: 100% 100%;
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-}
+    .imagen-banner{
+        background-image: url(../../images/casa1.jpg);    /* Ruta relativa para ver la imagen, saliendo de carpetas */
+        height: 45rem;
+        /* border: ; */
+        opacity: .85;
+        background-size: 100% 100%;
+        /* background-repeat: no-repeat; */
+        /* background-attachment: fixed; */
+    }
+
+    .Beneficios{
+        width: 4rem;
+    }
