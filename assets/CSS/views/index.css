@@ -7,7 +7,17 @@ body{
     padding: 0;
     background-color: #fafafa
 }
+h2{
+    font-size: 2.6rem;
+}
 
+h3{
+    font-size: 2.4rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
 #header-principal{ /* #Para ID y el .Clases*/
     background-color: white;
     height: 15rem;
@@ -65,5 +75,21 @@ main{
     }
 
     .Beneficios{
-        width: 4rem;
+        width: 90%;
+        margin: 4rem auto;         /* El auto es para que se acomode automaticamente */
+        display: flex;
+    }
+        .Beneficios div{
+            padding: 2rem;
+            width: 31%;
+            text-align: center;
+        }
+
+        .Beneficios div i{
+            font-size: 5rem; /*Cada Rem es un Pixel*/
+            color: #666;
+        }
+
+    .Sugerencias{
+        
     }
